@@ -15,6 +15,7 @@
 		719AF23C1D76B3E60096485F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719AF23A1D76B3E60096485F /* LaunchScreen.storyboard */; };
 		719AF2471D76B3E60096485F /* AnimationSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2461D76B3E60096485F /* AnimationSetTests.m */; };
 		719AF2521D76B3E60096485F /* AnimationSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2511D76B3E60096485F /* AnimationSetUITests.m */; };
+		719AF2641D76BA230096485F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2631D76BA230096485F /* AnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		719AF24D1D76B3E60096485F /* AnimationSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719AF2511D76B3E60096485F /* AnimationSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSetUITests.m; sourceTree = "<group>"; };
 		719AF2531D76B3E60096485F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719AF2621D76BA230096485F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		719AF2631D76BA230096485F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				719AF2301D76B3E60096485F /* AppDelegate.m */,
 				719AF2321D76B3E60096485F /* ViewController.h */,
 				719AF2331D76B3E60096485F /* ViewController.m */,
+				719AF2621D76BA230096485F /* AnimationViewController.h */,
+				719AF2631D76BA230096485F /* AnimationViewController.m */,
 				719AF2351D76B3E60096485F /* Main.storyboard */,
 				719AF2381D76B3E60096485F /* Assets.xcassets */,
 				719AF23A1D76B3E60096485F /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				719AF2341D76B3E60096485F /* ViewController.m in Sources */,
 				719AF2311D76B3E60096485F /* AppDelegate.m in Sources */,
 				719AF22E1D76B3E60096485F /* main.m in Sources */,
+				719AF2641D76BA230096485F /* AnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				719AF2581D76B3E60096485F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		719AF2591D76B3E60096485F /* Build configuration list for PBXNativeTarget "AnimationSetTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				719AF25B1D76B3E60096485F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		719AF25C1D76B3E60096485F /* Build configuration list for PBXNativeTarget "AnimationSetUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				719AF25E1D76B3E60096485F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
