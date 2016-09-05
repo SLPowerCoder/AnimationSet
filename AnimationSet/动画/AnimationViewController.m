@@ -22,7 +22,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = self.animationName;
     
     _animationView = [[UIView alloc]initWithFrame:CGRectMake(40, 100, self.view.frame.size.width - 80, self.view.frame.size.height - 140)];
     _animationView.backgroundColor = [UIColor cyanColor];
@@ -31,23 +30,21 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
-    [self playAnimationWithName:self.animationName];
+    [self playAnimationWithName:self.row];
 }
 
 //播放动画
--(void)playAnimationWithName:(NSString *)name{
-
-    NSArray *arr = @[@"基本动画",@"关键帧动画",@"转场动画",@"组动画",@"贝塞尔曲线"];;
+-(void)playAnimationWithName:(NSInteger)row{
     
-    if ([name isEqualToString:arr[0]]) {
+    if (row == 0) {
         [self createBasicAnimation];
-    }else if ([name isEqualToString:arr[1]]){
+    }else if (row == 1){
         [self createKeyFrameAnimation];
-    }else if ([name isEqualToString:arr[2]]){
+    }else if (row == 2){
         [self createTransitionAnimation];
-    }else if ([name isEqualToString:arr[3]]){
+    }else if (row == 3){
         [self createGroupAnimation];
-    }else if ([name isEqualToString:arr[4]]){
+    }else if (row == 4){
         _animationView.hidden = YES;
         [self createMiidolWithtarget:self];
     }
@@ -72,8 +69,8 @@
     //basic.autoreverses = YES;
     
     // 核心动画结束后，不想回到原来的位置，需要以下两行代码
-    basic.fillMode = kCAFillModeForwards; // 填充模式
-    basic.removedOnCompletion = NO;
+//    basic.fillMode = kCAFillModeForwards; // 填充模式
+//    basic.removedOnCompletion = NO;
     
     //时序函数，调节速度的，你还可以自己定制
     basic.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
@@ -122,7 +119,7 @@
      fade, moveIn, push, reveal
      cube, oglFlip, suckEffect, rippleEffect, pageCurl, pageUnCurl, cameraIrisHollowOpen, cameraIrisHollowClose
      */
-    anim.type = @"cameraIrisHollowOpen";  // 动画过渡类型
+    anim.type = @"pageCurl";  // 动画过渡类型
     //动画过渡方向
     anim.subtype = kCATransitionFromLeft;
     //设置动画持续时间

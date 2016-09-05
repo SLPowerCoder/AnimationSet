@@ -19,6 +19,6 @@
 
 @interface AnimationViewController : UIViewController
 
-@property (nonatomic, copy) NSString *animationName;
+@property (nonatomic, assign) NSInteger row;
 
 @end

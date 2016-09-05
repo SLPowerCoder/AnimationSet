@@ -75,7 +75,7 @@
 
     AnimationViewController *animationVC = [[AnimationViewController alloc]init];
     
-    animationVC.animationName = arr[indexPath.row];
+    animationVC.row = indexPath.row;
     [self.navigationController pushViewController:animationVC animated:YES];
 }
 
