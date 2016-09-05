@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AnimationViewController.h"
+#import "DrawingBoardViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -24,10 +25,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    NSLog(@"==========----------%f",[[UIScreen mainScreen] nativeScale]);
     self.navigationItem.title = @"动画";
     
-    arr = @[@"基本动画",@"关键帧动画",@"转场动画",@"组动画",@"贝塞尔曲线"];
+    arr = @[@"基本动画 --- Core Animation",@"关键帧动画 --- Core Animation",@"转场动画 --- Core Animation",@"组动画 --- Core Animation",@"贝塞尔曲线 ---UIBezier" ,@"画板---Core Graphic"];
     
     [self createContents];
 }
@@ -62,6 +63,15 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (indexPath.row == 5) {
+        
+        DrawingBoardViewController *drawVC = [[DrawingBoardViewController alloc]init];
+        
+        [self.navigationController pushViewController:drawVC animated:YES];
+        
+        return;
+    }
 
     AnimationViewController *animationVC = [[AnimationViewController alloc]init];
     

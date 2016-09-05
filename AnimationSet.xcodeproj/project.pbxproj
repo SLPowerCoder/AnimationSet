@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71911EFA1D7D638700605335 /* DrawingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 71911EF91D7D638700605335 /* DrawingBoard.m */; };
+		71911EFE1D7D63CA00605335 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71911EFD1D7D63CA00605335 /* AnimationViewController.m */; };
+		71911F011D7D642000605335 /* LineObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 71911F001D7D642000605335 /* LineObj.m */; };
+		71911F041D7D6E9E00605335 /* DrawingBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71911F031D7D6E9E00605335 /* DrawingBoardViewController.m */; };
 		719AF22E1D76B3E60096485F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF22D1D76B3E60096485F /* main.m */; };
 		719AF2311D76B3E60096485F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2301D76B3E60096485F /* AppDelegate.m */; };
 		719AF2341D76B3E60096485F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2331D76B3E60096485F /* ViewController.m */; };
@@ -15,7 +19,6 @@
 		719AF23C1D76B3E60096485F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719AF23A1D76B3E60096485F /* LaunchScreen.storyboard */; };
 		719AF2471D76B3E60096485F /* AnimationSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2461D76B3E60096485F /* AnimationSetTests.m */; };
 		719AF2521D76B3E60096485F /* AnimationSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2511D76B3E60096485F /* AnimationSetUITests.m */; };
-		719AF2641D76BA230096485F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719AF2631D76BA230096485F /* AnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71911EF81D7D638700605335 /* DrawingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoard.h; sourceTree = "<group>"; };
+		71911EF91D7D638700605335 /* DrawingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoard.m; sourceTree = "<group>"; };
+		71911EFC1D7D63CA00605335 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		71911EFD1D7D63CA00605335 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		71911EFF1D7D642000605335 /* LineObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineObj.h; sourceTree = "<group>"; };
+		71911F001D7D642000605335 /* LineObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineObj.m; sourceTree = "<group>"; };
+		71911F021D7D6E9E00605335 /* DrawingBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardViewController.h; sourceTree = "<group>"; };
+		71911F031D7D6E9E00605335 /* DrawingBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardViewController.m; sourceTree = "<group>"; };
 		719AF2291D76B3E60096485F /* AnimationSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719AF22D1D76B3E60096485F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		719AF22F1D76B3E60096485F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +63,6 @@
 		719AF24D1D76B3E60096485F /* AnimationSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719AF2511D76B3E60096485F /* AnimationSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSetUITests.m; sourceTree = "<group>"; };
 		719AF2531D76B3E60096485F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		719AF2621D76BA230096485F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
-		719AF2631D76BA230096485F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71911EF71D7D638700605335 /* 画板 */ = {
+			isa = PBXGroup;
+			children = (
+				71911EF81D7D638700605335 /* DrawingBoard.h */,
+				71911EF91D7D638700605335 /* DrawingBoard.m */,
+				71911EFF1D7D642000605335 /* LineObj.h */,
+				71911F001D7D642000605335 /* LineObj.m */,
+			);
+			path = "画板";
+			sourceTree = "<group>";
+		};
+		71911EFB1D7D63CA00605335 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				71911EFC1D7D63CA00605335 /* AnimationViewController.h */,
+				71911EFD1D7D63CA00605335 /* AnimationViewController.m */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
 		719AF2201D76B3E60096485F = {
 			isa = PBXGroup;
 			children = (
@@ -104,17 +133,19 @@
 		719AF22B1D76B3E60096485F /* AnimationSet */ = {
 			isa = PBXGroup;
 			children = (
+				71911EFB1D7D63CA00605335 /* 动画 */,
+				71911EF71D7D638700605335 /* 画板 */,
 				719AF22F1D76B3E60096485F /* AppDelegate.h */,
 				719AF2301D76B3E60096485F /* AppDelegate.m */,
 				719AF2321D76B3E60096485F /* ViewController.h */,
 				719AF2331D76B3E60096485F /* ViewController.m */,
-				719AF2621D76BA230096485F /* AnimationViewController.h */,
-				719AF2631D76BA230096485F /* AnimationViewController.m */,
 				719AF2351D76B3E60096485F /* Main.storyboard */,
 				719AF2381D76B3E60096485F /* Assets.xcassets */,
 				719AF23A1D76B3E60096485F /* LaunchScreen.storyboard */,
 				719AF23D1D76B3E60096485F /* Info.plist */,
 				719AF22C1D76B3E60096485F /* Supporting Files */,
+				71911F021D7D6E9E00605335 /* DrawingBoardViewController.h */,
+				71911F031D7D6E9E00605335 /* DrawingBoardViewController.m */,
 			);
 			path = AnimationSet;
 			sourceTree = "<group>";
@@ -212,6 +243,7 @@
 				TargetAttributes = {
 					719AF2281D76B3E60096485F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 329ZYF9D22;
 					};
 					719AF2411D76B3E60096485F = {
 						CreatedOnToolsVersion = 7.3;
@@ -275,10 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71911EFA1D7D638700605335 /* DrawingBoard.m in Sources */,
 				719AF2341D76B3E60096485F /* ViewController.m in Sources */,
 				719AF2311D76B3E60096485F /* AppDelegate.m in Sources */,
+				71911F041D7D6E9E00605335 /* DrawingBoardViewController.m in Sources */,
+				71911F011D7D642000605335 /* LineObj.m in Sources */,
+				71911EFE1D7D63CA00605335 /* AnimationViewController.m in Sources */,
 				719AF22E1D76B3E60096485F /* main.m in Sources */,
-				719AF2641D76BA230096485F /* AnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimationSet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunlei.AnimationSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -432,10 +470,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AnimationSet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunlei.AnimationSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

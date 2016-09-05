@@ -334,6 +334,7 @@
         lAni.repeatCount = HUGE_VALF;
         lAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
         [lShapeLayer addAnimation:lAni forKey:nil];
+
     });
     
     UIBezierPath *lPath = [UIBezierPath bezierPath];
